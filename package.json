@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
+=======
+  "name": "todo",
+>>>>>>> d4a555e1f1436318b42e16028ec5aef63690bb26
   "version": "0.1.0",
   "private": true,
   "dependencies": {
