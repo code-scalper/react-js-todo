@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 가스감지 및 경보설비 설치 계획 
+ 
+ ## 다이얼로그
+   - 변경관리 제목
+     : `MOC_CodeMasters` 에 해당 컬럼이 없어서 어느 테이블과 연동해야 하는지 궁금합니다.
+   - 작동범위
+     : `Nested` 형태의 라벨링이라 ui 구성할때 y-text로 구현하기에 어려움이 있어 y-label을 사용하여 b-col과 b-row를 배분하였으나 ppt와 완전 동일한 모양을 만들기에 어려움이 있습니다.
+   - MOC코드
+     : s-ERP 의 경우 `MOC코드 클릭`시 moc 코드 선택하는 부분이 나오는데 현 시스템에서도 구현되어야 하는지 궁금합니다.
 
-## Available Scripts
+ ## 리스트
+   - 테이블상 경보설정값의 표현
+   - 스타일링
+    : `리스트 그리드와 검색창간 간격`이 조금 들어가면 좋을 듯한데, 
+    ~~~
+     <!-- 그리드 -->
+     <b-row class="mt-3">
+    ~~~
+    부트스트랩 **mt-3 클래스로 약간 마진**을 주면 어떨지 하는 의견 입니다.
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ ## DB
+   - PS_GasDetectorReMOCs
